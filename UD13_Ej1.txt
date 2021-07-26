@@ -1,0 +1,3 @@
+Atleta(pk_NumeroDorsal, Nombre)
+
+Atleta(Fk_NumeroDorsal, Nombre)

@@ -1,0 +1,13 @@
+ParqueBombero(PK_Cod_Parque, Nombre,Direccion,Telefono, Categoria)
+
+Coche(PK_Numero_Coche, Marca, Modelo, Num_Matricula, Fecha_Compra, Fecha_ult_revision, FK_Cod_Parque)
+
+Bombero(PK_Cod_Bom,Nombre,Apellidos,Fecha_Nac,DNI,Direccion,Telefono, FK_Cod_Parque)
+
+PeticionServicio(PK_CodPetServ, Tipo_Serv,GradoUrgencia)
+
+Equipo(PK_Cod_Eq,Nombre,FK_Cod_Bom,FK_CodPetServ)
+
+Turno(PK_Cod_Turno, Descripcion,FK_Cod_Bom)
+
+Periodo(Pk_Fecha_Inicio, PK_Fecha_Fin, FK_Cod_Bom)

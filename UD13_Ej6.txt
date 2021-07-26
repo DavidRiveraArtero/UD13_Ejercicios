@@ -1,0 +1,8 @@
+Cliente(PK_Cod_cliente, Nombre, DNI, Telefono)
+
+Proveedor(PK_Cod_proveedor, Direccion, )
+
+Pedido(PK_Cod_pedido, Fecha_pedido, FK_Cod_cliente)
+
+Producto(Pk_Cod_producto, Cantidad, FK_Cod_pedido, fk_Cod_proveedor)
+

@@ -1,0 +1,9 @@
+Elemento (PK_NombreElemento, peso_atomico,simbolo,NumeroAtomico)
+
+Compuesto(Pk_NombreCompuesto,Fk_Nombre_Elemento)
+
+Gaseoso(Coef_Expan, Temp_lic, Pk_NombreCompuesto)
+
+Liquido(Densidad, Temp_evap, Pk_NombreCompuesto)
+
+Solido(Color, Olor, Dureza, Pk_NombreCompuesto)

@@ -1,0 +1,7 @@
+Sucursal(PK_Sucursal, Ciudad, Activo)
+
+Cliente(Pk_DNI, Nombre, Apellidos, Direccion, Ciudad, FK_Sucursal)
+
+Cuenta(PK_NumeroCuenta, Saldo, FK_DNI, FK_Sucursal)
+
+Transaccion(PK_NumeroTransaccion, Fecha,TipoOperacion,Cantidad, FK_NumeroCuenta)

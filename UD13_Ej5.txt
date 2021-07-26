@@ -1,0 +1,13 @@
+Fondo(PK_Titulo,PK_Autor, Cantidad)
+
+Libro(PK_Signatura,Disponible, FK_Titulo, Fk_Autor)
+
+Prestamo(PK_NumPrestamo, Fecha_Prest, FK_Signatura)
+
+Prestamo_S(PK_NumPrestamo)
+
+Prestamos_E(PK_NumPrestamo)
+
+Socios(PK_NumSocio, Nombre,Apellidos,Telefono,Fecha_Cad, Fk_NumPrestamo)
+
+Sanacion(PK_NumDias, Fk_NumSocio)
